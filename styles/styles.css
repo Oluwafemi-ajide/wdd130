@@ -14,7 +14,7 @@ body {
 
 /* Header */
 header {
-    background-color: #263850;
+    background-color: #2b87ef;
     padding: 1rem;
 
 }
@@ -29,10 +29,11 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 1rem;
     text-decoration: none;
     display: block;
+    border: none;
 }
 
 /* main heading*/
