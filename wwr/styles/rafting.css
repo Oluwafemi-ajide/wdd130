@@ -1,0 +1,165 @@
+/* 1. CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Website Colors and Fonts */
+:root {
+    --primary-color: #263850;
+    --secondary-color: #d9eaf2;
+    --accent1-color: #333333;
+    --accent2-color: #ffffff;
+
+    --heading-font: Arial, sans-serif;
+    --body-font: Arial, sans-serif;
+}
+
+/* 3. Body Styling */
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+/* 4. Main Page Layout */
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* 5. Heading Styling */
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* 6. Navigation Styling */
+nav {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+nav a {
+    color: var(--accent2-color);
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+}
+
+/* 7. Paragraph, Section, and Article Styling */
+p {
+    padding: 0.5rem;
+}
+
+section {
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+article {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* 8. Hero Image Styling */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* 9. Hero Heading Styling */
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+
+}
+
+/* 10. Hero Article Styling */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    opacity: 0.9;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* 11. Footer Styling */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+}
+
+footer p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 12. Social Media Styling */
+.socialmedia {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: transparent;
+    padding: 0;
+}
+
+.socialmedia a {
+    text-decoration: none;
+
+}
+
+.socialmedia img {
+    width: 32px;
+    height: auto;
+}
+
+/* 13. Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
