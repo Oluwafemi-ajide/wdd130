@@ -184,13 +184,11 @@ footer {
     position: relative;
 }
 
-footer p {}
-
 /* 12. Social Media Styling */
 .socialmedia {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     background-color: transparent;
     padding: 0;
 }
