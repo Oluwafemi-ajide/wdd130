@@ -26,7 +26,8 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -100,7 +101,7 @@ article {
 
 .history-content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
     align-items: center;
     gap: 1rem;
 }
@@ -187,12 +188,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-}
-
-.sociallinks {
-    display: flex;
-    gap: 1rem;
 }
 
 /* 12. Social Media Styling */
@@ -225,4 +220,11 @@ header {
 header img {
     width: 150px;
     height: auto;
+}
+
+/* Header Navigation */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
