@@ -1,0 +1,77 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 18px;
+
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: navy;
+}
+
+/* Main form styling */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Group each question */
+div {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Code container styling */
+.code-box {
+    width: 75%;
+    margin: 0 auto 20px;
+    padding: 12px;
+    background-color: #000;
+    color: white;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+/* Input, textarea and select styling */
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+button {
+    width: 100%;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background-color: #405b7d;
+}
