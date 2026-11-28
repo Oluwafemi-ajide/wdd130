@@ -26,9 +26,10 @@ body {
 header,
 main,
 footer {
-    width: 100%;
     max-width: 840px;
+    width: 100%;
     margin: 0 auto;
+    padding: 10px;
 }
 
 /* 5. Heading Styling */
@@ -366,18 +367,42 @@ header nav {
     background-color: #1b4965;
 }
 
-/* Responsive contact Page */
-@media screen and (max-width: 600px) {
-   .contact-layout {
-    grid-template-columns: 1fr;
-   } 
-   
-   .company-map iframe {
-    height: 300px;
-   }
 
-   .contact-team .adventures-gallery {
-       grid-template-columns: 1fr;
+/* Responsive Contact Page */
+@media screen and (max-width: 600px) {
+
+    header,
+    main,
+    footer {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    header nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .company-map iframe {
+        height: 300px;
+    }
+
+    .contact-team .adventures-gallery {
+        grid-template-columns: 1fr;
     }
 
     .contact-form {
@@ -388,9 +413,25 @@ header nav {
         display: flex;
     }
 
+    .history-content {
+        grid-template-columns: 1fr;
+    }
+
     .history iframe {
         height: 300px;
     }
+
+    .adventures-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
 }
+
 
 
